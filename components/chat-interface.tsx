@@ -356,7 +356,7 @@ export function ChatInterface({ persona, onBack }: ChatInterfaceProps) {
                 <div className="flex-1">
                   <p className="text-orange-800 font-medium">Chat limit reached</p>
                   <p className="text-orange-700 text-sm">
-                    You've used all 10 chats for this hour. Try again in {RateLimiter.getRemainingTime()}.
+                    You&apos;ve used all 10 chats for this hour. Try again in {RateLimiter.getRemainingTime()}.
                   </p>
                 </div>
               </div>
